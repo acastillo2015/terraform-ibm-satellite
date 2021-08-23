@@ -72,7 +72,7 @@ variable "addl_host_count" {
 variable "is_prefix" {
   description = "Prefix to the Names of the VPC Infrastructure resources"
   type        = string
-  default     = "satellite-ibm"
+  default     = "satellite-ajce"
 }
 
 variable "public_key" {
