@@ -78,5 +78,5 @@ variable "is_prefix" {
 variable "public_key" {
   description = "SSH Public Key. Get your ssh key by running `ssh-key-gen` command"
   type        = string
-  default     = "SIJaouF8gGZa-rKRWWc4RUc5rS0MztVdOeMEsR6W1DIk"
+  default     = null
 }
