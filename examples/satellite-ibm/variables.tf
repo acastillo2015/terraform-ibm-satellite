@@ -29,7 +29,7 @@ variable "managed_from" {
 variable "location_zones" {
   description = "Allocate your hosts across these three zones"
   type        = list(string)
-  default     = ["us-east-1", "us-east-2", "us-east-3"]
+  default     = ["Washington DC 1", "Washington DC 2", "Washington DC 3"]
 }
 
 variable "location_bucket" {
