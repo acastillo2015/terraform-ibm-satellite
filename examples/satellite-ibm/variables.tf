@@ -17,7 +17,7 @@ variable "resource_group" {
 ##################################################
 variable "location" {
   description = "Location Name"
-  default     = "satellite-ibm"
+  default     = "satellite-ajce"
 }
 
 variable "managed_from" {
