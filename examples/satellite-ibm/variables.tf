@@ -7,6 +7,10 @@ variable "ibm_region" {
   default     = "us-east"
 }
 
+variable "ibmcloud_api_key" {
+  description = "IBM Cloud API Key."
+}
+
 variable "resource_group" {
   description = "Name of the resource group on which location has to be created"
   default     = "ArmandoC"
