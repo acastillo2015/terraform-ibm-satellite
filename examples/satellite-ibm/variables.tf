@@ -82,5 +82,5 @@ variable "is_prefix" {
 variable "public_key" {
   description = "SSH Public Key. Get your ssh key by running `ssh-key-gen` command"
   type        = string
-  default     = "AAAAB3NzaC1yc2EAAAADAQABAAABgQDY68oHTCPt9IQ9BAJAqT2bLKohjPrn0eSJ4fw9cCKc1KXpV1OBf1ELYuEaZ0vXhHo8WZ6iAISqhVjc/2WlsZAYB6Apx3OJJJC7AtaYVKR43H+GBEQIGcue8Rnln5qx2HX7T8lxFYYXbaFbGqQGNbnsUVMdZeLSXQjrQB/alLXzkdUtbXx+c4m+9pa9PSgsHFAXAyDwqZO3K0OfjlGGMNhJT4tHGKEf+FwktdfkkpVWCRpVXBhsQ5TNTJpmSoqJyjBtYv0/BfE3AxsS4I578RjNb0zQI1OX4c4D/vWUtGV+ggCVSTVH93nJlM1I9vlLYTp3TpDiGLiFBwjKuNWwU+nRh2NIcMVFZQWv5KmJh7H03jhuif3Nvi2yaMVhqRdi3IZ3ZQlUYmvkZlhLlyTTYMck9AtV3997GchBgKy6RT0+MvuDxbKM58vQoTT281Nx44T5a8RTnW9XzBjgdzSndQoYWB7zhnANls1tAzwnagKi0JkFT+nJFj+lrqSx/UDO+70="
+  default     = null
 }
