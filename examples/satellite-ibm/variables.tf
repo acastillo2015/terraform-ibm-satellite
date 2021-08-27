@@ -21,7 +21,7 @@ variable "resource_group" {
 ##################################################
 variable "location" {
   description = "Location Name"
-  default     = "satellite-ajce"
+  default     = "satellite-poc"
 }
 
 variable "managed_from" {
