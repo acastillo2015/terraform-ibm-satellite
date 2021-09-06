@@ -21,7 +21,7 @@ variable "resource_group" {
 ##################################################
 variable "location" {
   description = "Location Name"
-  default     = "satellite-poc"
+  default     = "satellite-cloudibmn"
 }
 
 variable "managed_from" {
@@ -76,7 +76,7 @@ variable "addl_host_count" {
 variable "is_prefix" {
   description = "Prefix to the Names of the VPC Infrastructure resources"
   type        = string
-  default     = "satellite-ajce"
+  default     = "satellite-cloudibm"
 }
 
 variable "public_key" {
