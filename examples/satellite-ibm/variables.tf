@@ -22,7 +22,7 @@ variable "resource_group" {
 ##################################################
 variable "location" {
   description = "Location Name"
-  default     = "satellitespain"
+  default     = "satellite-cloudibmn"
 }
 
 variable "managed_from" {
@@ -45,7 +45,7 @@ variable "location_bucket" {
 variable "is_location_exist" {
   description = "Determines if the location has to be created or not"
   type        = bool
-  default     = false
+  default     = yes
 }
 
 variable "host_labels" {
@@ -77,7 +77,7 @@ variable "addl_host_count" {
 variable "is_prefix" {
   description = "Prefix to the Names of the VPC Infrastructure resources"
   type        = string
-  default     = "satellite-spain"
+  default     = "satellite-cloudibm-vpc"
 }
 
 variable "public_key" {
