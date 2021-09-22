@@ -9,7 +9,7 @@ variable "ibm_region" {
 
 variable "ibmcloud_api_key" {
   description = "IBM Cloud API Key."
-  default = "SIJaouF8gGZa-rKRWWc4RUc5rS0MztVdOeMEsR6W1DIk"
+  default = "_uA1KeWParQfUY0iTi_uJr1rY5IqzhDu-hfg31KR24C3"
 }
 
 variable "resource_group" {
@@ -77,7 +77,7 @@ variable "addl_host_count" {
 variable "is_prefix" {
   description = "Prefix to the Names of the VPC Infrastructure resources"
   type        = string
-  default     = "satellite-cloudspain"
+  default     = "satellite-spain"
 }
 
 variable "public_key" {
