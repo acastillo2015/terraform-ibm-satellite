@@ -22,7 +22,7 @@ variable "resource_group" {
 ##################################################
 variable "location" {
   description = "Location Name"
-  default     = "satellite-cloudspain"
+  default     = "satellitespain"
 }
 
 variable "managed_from" {
