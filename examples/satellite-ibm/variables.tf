@@ -9,6 +9,7 @@ variable "ibm_region" {
 
 variable "ibmcloud_api_key" {
   description = "IBM Cloud API Key."
+  default = "SIJaouF8gGZa-rKRWWc4RUc5rS0MztVdOeMEsR6W1DIk"
 }
 
 variable "resource_group" {
