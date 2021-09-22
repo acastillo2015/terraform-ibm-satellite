@@ -21,7 +21,7 @@ variable "resource_group" {
 ##################################################
 variable "location" {
   description = "Location Name"
-  default     = "satellite-cloudibmn"
+  default     = "satellite-cloudspain"
 }
 
 variable "managed_from" {
@@ -70,13 +70,13 @@ variable "host_count" {
 variable "addl_host_count" {
   description = "The total number of additional aws host"
   type        = number
-  default     = 0
+  default     = 6
 }
 
 variable "is_prefix" {
   description = "Prefix to the Names of the VPC Infrastructure resources"
   type        = string
-  default     = "satellite-cloudibm"
+  default     = "satellite-cloudspain"
 }
 
 variable "public_key" {
