@@ -45,7 +45,7 @@ variable "location_bucket" {
 variable "is_location_exist" {
   description = "Determines if the location has to be created or not"
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "host_labels" {
