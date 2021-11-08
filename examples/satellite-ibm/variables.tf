@@ -14,7 +14,7 @@ variable "ibmcloud_api_key" {
 
 variable "resource_group" {
   description = "Name of the resource group on which location has to be created"
-  default     = "ArmandoC"
+  default     = "ArmandoCastillo"
 }
 
 ##################################################
